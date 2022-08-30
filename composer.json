@@ -1,0 +1,27 @@
+{
+    "name": "anthonypauwels/airtable",
+    "type": "library",
+    "description": "An Airtable Client",
+    "keywords": [
+        "airtable",
+        "client"
+    ],
+    "authors": [
+        {
+            "name": "Anthony Pauwels",
+            "email": "hello@anthonypauwels.be",
+            "homepage": "https://anthonypauwels.be/"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AirTable\\": "src/"
+        }
+    }
+}
